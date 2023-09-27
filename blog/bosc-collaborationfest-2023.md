@@ -1,15 +1,15 @@
 # BOSC CollaborationFest 2023 Report
 
 
-**CollaborationFest**, CoFest for short, is a collaborative work event that has been held immediately before or after BOSC, continuously over the past 13 years. People are offered to submit their projects in advance (including but not limited to hacking), and then gather in small group to work together and exchange ideas.
+**CollaborationFest**, CoFest for short, is a collaborative work event that has been held immediately before or after BOSC, continuously over the past 13 years. People are offered to submit their projects in advance (including but not limited to hacking), and then gather in small groups to work together and exchange ideas.
 
 
-The [CoFest 2023](https://www.open-bio.org/events/bosc-2023/obf-bosc-collaborationfest-2023/) took place during the two days just before BOSC, in Lyon, and online.
+The [CoFest 2023](https://www.open-bio.org/events/bosc-2023/obf-bosc-collaborationfest-2023/) took place during the two days just before BOSC, in Lyon and online.
 It was hosted by Jérémy Just at the nearby _[École Normale Supérieure de Lyon](https://www.ens-lyon.fr/en/)_, which provided space and infrastructure, with funding from _[Complex Systems Institute](https://www.ixxi.fr/?set_language=en)_ for lunches and coffee breaks. Virtual machines were made available by the _[French Bioinformatics Institute](https://www.france-bioinformatique.fr/en/home/)_ and the _[Pôle scientifique de modélisation numérique](https://www.ens-lyon.fr/PSMN/doku.php?id=en:accueil)_.
 It brought together 29 in-person participants as well as numerous online participants, experts in fields as diverse as plant biology and personalized medicine.
-Many local and first-time attendees were able to join this edition of Cofest.
+Many local and first-time attendees were able to join this edition of CoFest.
 
-A 360° webcam allowed remote attendees to see the whole meeting room during
+A 360° webcam allowed remote attendees to see the whole meeting room during work sessions.
 
 %%FIXME: Picture of the project list with ecocup and mug
 
@@ -47,7 +47,7 @@ Users can also predict structures from sequences using ESMFold directly in iCn3D
 
 The [Blast book](https://www.oreilly.com/library/view/blast/0596002998/), by Ian Korf _et al_, was published in 2003. It provides a lot of "recipes" for Blast searches in different contexts. Since then, however, the syntax of most tools from the Blast suite has changed, with the introduction of Blast+ in 2009. The wrapper currently distributed with Blast+ to convert the old syntax (`blastall`) has quite limited features. My idea is to update the command examples in the book to the new syntax, explain new options, and identify places that need more in-depth updating.
 
-The main author, [Ian Korf](http://korflab.ucdavis.edu/Bios/bio_ian.html)), had been contacted in advance: he's not against a new book about Blast, but he doesn~t want to be involved. Two hard copies of the book were available during CoFest.
+The main author, [Ian Korf](http://korflab.ucdavis.edu/Bios/bio_ian.html), had been contacted in advance: he's not against a new book about Blast, but he doesn't want to be involved. Two hard copies of the book were available during CoFest.
 
 
 #### What was done
@@ -63,7 +63,7 @@ The main author, [Ian Korf](http://korflab.ucdavis.edu/Bios/bio_ian.html)), had 
 
 
 
-### Report on various Biopython projects
+### Progress on various Biopython projects
 
 #### Context
 
@@ -73,12 +73,12 @@ Peter Cock will be attending remotely, but as one of the regular Biopython contr
 
 #### What was done
 
- * Progress on LaTeX to RST/Sphinx conversion of [Tutorial](https://github.com/biopython/biopython/tree/master/Doc) (Tables, Citations)
+ * Progress on LaTeX to RST/Sphinx conversion of [Tutorial](https://github.com/biopython/biopython/tree/master/Doc) (Tables, Citations).
  * Improvements to a script dealing with big FASTQ files: speed up reads extraction (6x faster).
 
 #### Future work
 
- * Try to get the converted Tutorial to build without errors
+ * Try to get the converted Tutorial to build without errors.
 
 #### Question to CoFest group
 
@@ -94,20 +94,20 @@ What file format would you prefer for the Tutorial (HTML, PDF, eBook...)?
 
 However the main function of the package is very expensive both in computing and in time since it is not parallelized.
 
-The idea would be to attempt to parallelize it using the [future](https://future.futureverse.org/) package (which is already used by Seurat) in order to speed up scRNA-Seq workflows making use of it.
+The idea would be to attempt to parallelize it using the [Future](https://future.futureverse.org/) package (which is already used by Seurat) in order to speed up scRNA-Seq workflows making use of it.
 
 
 #### What was done
 
- * The first main loop (out of two) was parallelized
-     * works when used locally & remotely on reduced dataset
-     * 10x performance for the whole function
- * Crashing using full dataset remotely (`Error: Detected a non-exportable reference ('externalptr') used in the future expression`)
+ * The first main loop (out of two) was parallelized:
+     * works when used locally & remotely on reduced dataset,
+     * 10x performance for the whole function.
+ * Crashing using full dataset remotely (`Error: Detected a non-exportable reference ('externalptr') used in the future expression`).
 
 #### Future work
 
- * Investigate the crash further
- * Parallelize the second main loop of MultiK
+ * Investigate the crash further,
+ * Parallelize the second main loop of MultiK.
 
 
 
@@ -139,18 +139,14 @@ This group aims to explore the applications and promotion of open source large l
 https://docs.google.com/document/d/1fxA3JCtPkScm7vXSFQqPJtgP6OEZgAwN7-o_pKtoH5c/edit?usp=sharing 
 
 
-
 #### What was done
- * Shared documentation to collect ideas and useful links
-     * Tips for choosing/testing open source LLMs
-     * Some ideas for applications and benchmarking of the models
-
-
+ * Shared documentation to collect ideas and useful links:
+     * Tips for choosing/testing open source LLMs,
+     * Some ideas for applications and benchmarking of the models.
 
 #### Future work
- * Summarize the document and merge into the paper being prepared by the LLM group from BioHackathon Japan that will be submitted to biohackrxiv
-     * https://biohackrxiv.org/discover 
-     * http://preview.biohackrxiv.org/ 
+ * Summarize the document and merge into the paper being prepared by the LLM group from [BioHackathon Japan](https://2023.biohackathon.org/) that will be submitted to [biohackrxiv](https://biohackrxiv.org/discover?q=BioHackJP%202023):
+     * http://preview.biohackrxiv.org/
 
 
 
@@ -158,18 +154,18 @@ https://docs.google.com/document/d/1fxA3JCtPkScm7vXSFQqPJtgP6OEZgAwN7-o_pKtoH5c/
 
 #### Context
 
-Most would agree that making biomedical research software (code, scripts, desktop software, Jupyter Notebooks, etc.) reusable is essential to prevent duplicate effort, enable building on top of existing work, and ultimately increase the pace of discoveries and innovations for improving human health. The question then is, how do we make biomedical research software reusable? The Findable, Accessible, Interoperable, and Reusable principles for Research Software (or FAIR4RS principles) published in 2022 provide high-level instructions to achieve that. It is the result of a large-scale effort and is backed by a large community of research software developers. However, just like the original FAIR principles, the FAIR4RS principles remain aspirational and do not provide clear actionable instructions. To address this, we have established the FAIR Biomedical Research Software (FAIR-BioRS) guidelines, that provide clear, actionable step-by-step instructions for making biomedical research software reusable in line with the FAIR4RS principles. Our idea here is to discuss the current version (v2.0.0) of the FAIR-BioRS guidelines, identify if/how they can be improved, brainstorm on how they can be maintained going forward, etc. so as a community we can start adhering consistently with the FAIR4RS principles to make our software reusable and also provide clear guidelines to do so especially for the next generation of biomedical software developers.
+Most would agree that making biomedical research software (code, scripts, desktop software, Jupyter Notebooks, etc.) reusable is essential to prevent duplicate effort, enable building on top of existing work, and ultimately increase the pace of discoveries and innovations for improving human health. The question then is, how do we make biomedical research software reusable? The Findable, Accessible, Interoperable, and Reusable principles for Research Software (or [FAIR4RS principles](https://doi.org/10.1038/s41597-022-01710-x)) published in 2022 provide high-level instructions to achieve that. It is the result of a large-scale effort and is backed by a large community of research software developers. However, just like the original FAIR principles, the FAIR4RS principles remain aspirational and do not provide clear actionable instructions. To address this, we have established the FAIR Biomedical Research Software (FAIR-BioRS) guidelines, that provide clear, actionable step-by-step instructions for making biomedical research software reusable in line with the FAIR4RS principles. Our idea here is to discuss the current version (v2.0.0) of the FAIR-BioRS guidelines, identify if/how they can be improved, brainstorm on how they can be maintained going forward, etc. so as a community we can start adhering consistently with the FAIR4RS principles to make our software reusable and also provide clear guidelines to do so especially for the next generation of biomedical software developers.
 
 #### What was done
 
- * Worked with some attendees to explore how the guidelines would apply to their project
- * Scope discussion, and at least one pull request merged
- * Notes from discussion available at https://etherpad.osuosl.org/p/Cofest2023-fair-BioRS
- * Discussion to wrap up on the paper and plan for future outreach/communication effort
+ * Worked with some attendees to explore how the guidelines would apply to their project,
+ * Scope discussion, and at least one pull request merged,
+ * Notes from discussion available at https://etherpad.osuosl.org/p/Cofest2023-fair-BioRS ,
+ * Discussion to wrap up on the paper and plan for future outreach/communication effort.
 
 This project had already benefited from BOSC CoFest 2022, and is now published in a peer-reviewed paper:
-Making Biomedical Research Software FAIR: Actionable Step-by-step Guidelines with a User-support Tool_, Patel et al, Sci. Data *10*, 557, 2023 ([doi:10.1038/s41597-023-02463-x](https://doi.org/10.1038/s41597-023-02463-x)).
 
+_Making Biomedical Research Software FAIR: Actionable Step-by-step Guidelines with a User-support Tool_, Patel et al, _Scientific Data_ *10*, 557, 2023 ([doi:10.1038/s41597-023-02463-x](https://doi.org/10.1038/s41597-023-02463-x)).
 
 
 Future work:
@@ -190,11 +186,11 @@ Questions to CoFest group:
  * all done!
 
 See:
- * [Introduction to the CWL Command Line Tool draft standard v1.2.1](https://deploy-preview-262--cwl-v1-2-dev.netlify.app/commandlinetool#Introduction_to_the_CWL_Command_Line_Tool_draft_standard_v1.2.1)
- * [Changelog_for_v1.2.1](https://deploy-preview-262--cwl-v1-2-dev.netlify.app/workflow#Changelog_for_v1.2.1)
+ * [Introduction to the CWL Command Line Tool draft standard v1.2.1](https://deploy-preview-262--cwl-v1-2-dev.netlify.app/commandlinetool#Introduction_to_the_CWL_Command_Line_Tool_draft_standard_v1.2.1),
+ * [Changelog_for_v1.2.1](https://deploy-preview-262--cwl-v1-2-dev.netlify.app/workflow#Changelog_for_v1.2.1).
 
 #### Future work
- * Get these changes reviewed & merged
+ * Get these changes reviewed & merged.
 
 Questions to CoFest group:
  * [reviews](https://github.com/common-workflow-language/cwl-v1.2/pull/262/files) are very welcome! (Especially by those with CWL experience)
@@ -204,10 +200,12 @@ Questions to CoFest group:
 ### SPARQL WR RO-Crate queries
 
 #### What was done
- * Made [SPARQL queries](https://github.com/RenskeW/runcrate-analysis/tree/main/test-prov) to answer provenance questions from ro-crate-manifest.json
+
+ * Made [SPARQL queries](https://github.com/RenskeW/runcrate-analysis/tree/main/test-prov) to answer provenance questions from ro-crate-manifest.json.
 
 #### Future work
- * Add more queries to the list
+
+ * Add more queries to the list.
 
 #### Questions to CoFest group
 
@@ -220,8 +218,7 @@ Questions to CoFest group:
 #### What was done
 
  * Added support to describe environment variables needed by a workflow execution.
- * Integrated used environment variables as inputs in Workflow Run RO-Crate, using FormalParameter. There is no standard way to signal which FormalParameters are a traditional workflow parameter and which are environment variables (besides the id).
+ * Integrated used environment variables as inputs in Workflow Run RO-Crate, using `FormalParameter`. There is no standard way to signal which `FormalParameter`s are a traditional workflow parameter and which are environment variables (besides the id).
  * _(partially implemented)_ Output files and directories are not using an nih URI any more.
- * _(work in progress)_ Better representation of CWL workflow dependencies, so the usage of an external ontology does not appear as a ~hard~ dependency itself.
-
+ * _(work in progress)_ Better representation of CWL workflow dependencies, so the usage of an external ontology does not appear as a "hard" dependency itself.
 
