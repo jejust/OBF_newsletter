@@ -4,12 +4,12 @@
 **CollaborationFest**, CoFest for short, is a collaborative work event that has been held immediately before or after BOSC, continuously over the past 13 years. People are offered to submit their projects in advance (including but not limited to hacking), and then gather in small groups to work together and exchange ideas.
 
 
-The [CoFest 2023](https://www.open-bio.org/events/bosc-2023/obf-bosc-collaborationfest-2023/) took place during the two days just before BOSC, in Lyon and online.
-It was hosted by Jérémy Just at the nearby _[École Normale Supérieure de Lyon](https://www.ens-lyon.fr/en/)_, which provided space and infrastructure, with funding from _[Complex Systems Institute](https://www.ixxi.fr/?set_language=en)_ for lunches and coffee breaks. Virtual machines were made available by the _[French Bioinformatics Institute](https://www.france-bioinformatique.fr/en/home/)_ and the _[Pôle scientifique de modélisation numérique](https://www.ens-lyon.fr/PSMN/doku.php?id=en:accueil)_.
+The [CoFest 2023](https://www.open-bio.org/events/bosc-2023/obf-bosc-collaborationfest-2023/) took place during the two days just before [BOSC](https://www.open-bio.org/2023/08/14/bosc-2023-report/), in Lyon and online.
+It was hosted by Jérémy Just at the nearby _[École Normale Supérieure de Lyon](https://www.ens-lyon.fr/en/)_, which provided space and infrastructure, with funding from _[Complex Systems Institute](https://www.ixxi.fr/?set_language=en)_ for lunches and coffee breaks. Free virtual machines were made available by the _[French Bioinformatics Institute](https://www.france-bioinformatique.fr/en/home/)_ and the _[Pôle scientifique de modélisation numérique](https://www.ens-lyon.fr/PSMN/doku.php?id=en:accueil)_.
 It brought together 29 in-person participants as well as numerous online participants, experts in fields as diverse as plant biology and personalized medicine.
 Many local and first-time attendees were able to join this edition of CoFest.
 
-A 360° webcam allowed remote attendees to see the whole meeting room during work sessions.
+A 360° webcam kindly lended by [Elixir](https://elixir-europe.org/) allowed remote attendees to see the whole meeting room during work sessions.
 
 %%FIXME: Picture of the project list with ecocup and mug
 
