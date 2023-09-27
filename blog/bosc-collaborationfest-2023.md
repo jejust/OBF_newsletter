@@ -5,13 +5,13 @@
 
 
 The [CoFest 2023](https://www.open-bio.org/events/bosc-2023/obf-bosc-collaborationfest-2023/) took place during the two days just before [BOSC](https://www.open-bio.org/2023/08/14/bosc-2023-report/), in Lyon and online.
-It was hosted by Jérémy Just at the nearby _[École Normale Supérieure de Lyon](https://www.ens-lyon.fr/en/)_, which provided space and infrastructure, with funding from _[Complex Systems Institute](https://www.ixxi.fr/?set_language=en)_ for lunches and coffee breaks. Free virtual machines were made available by the _[French Bioinformatics Institute](https://www.france-bioinformatique.fr/en/home/)_ and the _[Pôle scientifique de modélisation numérique](https://www.ens-lyon.fr/PSMN/doku.php?id=en:accueil)_.
+It was hosted by Jérémy Just at the nearby _[École Normale Supérieure de Lyon](https://www.ens-lyon.fr/en/)_, which provided space and infrastructure, with funding from _[Complex Systems Institute](https://www.ixxi.fr/?set_language=en)_ for lunches and coffee breaks. Free virtual machines were made available by the _[French Institute for Bioinformatics](https://www.france-bioinformatique.fr/en/home/)_ and the _[Pôle scientifique de modélisation numérique](https://www.ens-lyon.fr/PSMN/doku.php?id=en:accueil)_.
 It brought together 29 in-person participants as well as numerous online participants, experts in fields as diverse as plant biology and personalized medicine.
 Many local and first-time attendees were able to join this edition of CoFest.
 
-A 360° webcam kindly lended by [Elixir](https://elixir-europe.org/) allowed remote attendees to see the whole meeting room during work sessions.
+A 360° webcam kindly lended by [Elixir](https://elixir-europe.org/) for the CoFest allowed remote attendees to see the whole meeting room during work sessions.
 
-%%FIXME: Picture of the project list with ecocup and mug
+%%FIXME: Picture of the project list on a table with ecocup and mug
 
 
 As in previous years, CoFest participants were involved in a wide variety of projects focused on topics such as the documentation of existing software, the review and discussion of novel technologies, the improvement of existing tools, and several FAIR-related projects.
@@ -52,14 +52,14 @@ The main author, [Ian Korf](http://korflab.ucdavis.edu/Bios/bio_ian.html), had b
 
 #### What was done
 
- * Scoping discussion on Slack (when should we contact the original editor?),
+ * Scoping discussion on Slack (when should we contact the original publisher?),
  * Side-by-side option table (_old_ vs _new_ options),
  * Practical testing of old examples from the book using the new syntax.
 
 #### Future work
 
  * Write down the updated examples as a [web page](https://github.com/jejust/blast_book_plus),
- * Contact the editor of the book and see if they are interested in a new edition. In any case, the updated examples will be available to the community on a webpage.
+ * Contact O'Reilly, the publisher of the book, and see if they are interested in a new edition. In any case, the updated examples will be available to the community on a webpage.
 
 
 
@@ -73,7 +73,7 @@ Peter Cock will be attending remotely, but as one of the regular Biopython contr
 
 #### What was done
 
- * Progress on LaTeX to RST/Sphinx conversion of [Tutorial](https://github.com/biopython/biopython/tree/master/Doc) (Tables, Citations).
+ * Progress on LaTeX to RST/Sphinx conversion of [Tutorial](https://github.com/biopython/biopython/tree/master/Doc) (tables, citations).
  * Improvements to a script dealing with big FASTQ files: speed up reads extraction (6x faster).
 
 #### Future work
@@ -90,7 +90,7 @@ What file format would you prefer for the Tutorial (HTML, PDF, eBook...)?
 
 #### Project
 
-[MultiK](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02445-5) is a R package built upon [Seurat](https://satijalab.org/seurat/) that objectively selects multiple insightful numbers of clusters (K) in a single-cell RNA-seq dataset.
+[MultiK](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02445-5) is a R package built upon [Seurat](https://satijalab.org/seurat/) that objectively selects multiple insightful numbers of clusters (_K_) in a single-cell RNA-seq dataset.
 
 However the main function of the package is very expensive both in computing and in time since it is not parallelized.
 
@@ -115,7 +115,7 @@ The idea would be to attempt to parallelize it using the [Future](https://future
 
 #### Project
 
-[Bionano](https://bionano.com/) is a technology to create optical maps from HMW DNA. One major problem is the lack of tools options for analysis since there are only tools provided by Bionano Genomics : Bionano Access (server and GUI) and Bionano Solve (analysis software). 
+[Bionano](https://bionano.com/) is a technology to create optical maps from HMW DNA. One major problem is the lack of tools options for analysis since there are only tools provided by _Bionano Genomics_: Bionano Access (server and GUI) and Bionano Solve (analysis software). 
 The [installation of Bionano Solve](https://bionano.com/wp-content/uploads/2023/04/CG-30182_Bionano-Solve-Installation-Guide.pdf) is clumsy : it uses a docker image to install dependencies. My idea is to retrieve all the dependencies used from the docker image to create a bioconda recipe in order to easily install and maintain Bionano Solve software dependencies.
 
 #### What was done
@@ -145,7 +145,7 @@ https://docs.google.com/document/d/1fxA3JCtPkScm7vXSFQqPJtgP6OEZgAwN7-o_pKtoH5c/
      * Some ideas for applications and benchmarking of the models.
 
 #### Future work
- * Summarize the document and merge into the paper being prepared by the LLM group from [BioHackathon Japan](https://2023.biohackathon.org/) that will be submitted to [biohackrxiv](https://biohackrxiv.org/discover?q=BioHackJP%202023):
+ * Summarize the document and merge it into the paper being prepared by the LLM group from [BioHackathon Japan](https://2023.biohackathon.org/) that will be submitted to [biohackrxiv](https://biohackrxiv.org/discover?q=BioHackJP%202023):
      * http://preview.biohackrxiv.org/
 
 
@@ -168,10 +168,10 @@ This project had already benefited from BOSC CoFest 2022, and is now published i
 _Making Biomedical Research Software FAIR: Actionable Step-by-step Guidelines with a User-support Tool_, Patel et al, _Scientific Data_ *10*, 557, 2023 ([doi:10.1038/s41597-023-02463-x](https://doi.org/10.1038/s41597-023-02463-x)).
 
 
-Future work:
+#### Future work
  * Outreach/communication effort
 
-Questions to CoFest group:
+#### Question to CoFest group
  * Would you use the guidelines to make your research software reusable? If not, why, how can they be improved?
 
 
@@ -192,7 +192,7 @@ See:
 #### Future work
  * Get these changes reviewed & merged.
 
-Questions to CoFest group:
+#### Questions to CoFest group
  * [reviews](https://github.com/common-workflow-language/cwl-v1.2/pull/262/files) are very welcome! (Especially by those with CWL experience)
 
 
@@ -222,3 +222,12 @@ Questions to CoFest group:
  * _(partially implemented)_ Output files and directories are not using an nih URI any more.
  * _(work in progress)_ Better representation of CWL workflow dependencies, so the usage of an external ontology does not appear as a "hard" dependency itself.
 
+
+## SPondors
+
+we are grateful to all the sponsors who allowed us to host the BOSC CoFest in Lyon in excellent conditions and made it so successful!
+
+ * Complex Systems Institute
+ * École normale supérieure de Lyon
+ * Laboratoire Reproduction et développement des plantes
+ * French Institute for Bioinformatics
